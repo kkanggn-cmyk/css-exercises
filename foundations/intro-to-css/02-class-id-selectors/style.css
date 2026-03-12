@@ -1,1 +1,23 @@
-/* Add CSS Styling */
+.first{
+    background-color:lightcoral;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.first.bold{
+    background-color:lightcoral;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#second{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#fourth{
+    background-color: lightgreen;
+}

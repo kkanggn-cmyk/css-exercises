@@ -18,6 +18,7 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 16px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
@@ -66,4 +67,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modalflex{
+  display: flex;
+  gap:16px;
+}
+
+.modalflex .icon{
+  flex-shrink: 0;
+}
+
+.modalflex .close-button{
+  flex-shrink: 0;
+}
+
+.modalflex .headertext{
+}
+
+.modalflex .headertext .header{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.modalflex .headertext .text{
+  margin-bottom: 10px;
 }
